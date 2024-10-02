@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Reddit+Sans+Condensed:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav>
+        <!-- logo -->
+        <img class="logo" src="./images/my-logo-removebg-preview.png" alt="no image">
+        <!-- links -->
+        <ul>
+            <li class="list-items"> <a class="list" href="#home">Home</a></li>
+            <li class="list-items"> <a class="list" href="#about">About</a></li>
+            <li class="list-items"> <a class="list" href="#skill">Skill</a></li>
+            <li class="list-items"> <a class="list" href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+      <!-- home -->
+      <section id="home">
+        <!-- home content -->
+        <div class="home-content">
+          <h1 class="animate__animated animate__backInLeft" id="username">I am Sagar <span id="lname">S</span></h1>
+          <p id="user-details">
+            This is my official portfolio website to describe all
+            <br />
+            Details and work experience in Web Development
+          </p>
+          <a id="download" href="Sagar-Resume.pdf" download>DOWNLOAD CV</a>
+        </div>
+        <!-- home image -->
+        <div class="home-img">
+          <img id="shape" class="group1" src="images/shape.png" alt="" />
+          <!-- lady -->
+          <img id="lady" class="group1" src="images/lady.png" alt="" />
+        </div>
+        <!-- shape -->
+      </section>
+
+      <!-- about -->
+       <section id="about">
+        <div class="sectionHead">
+          <h2 id="mainhead">About me</h2>
+          <span id="subhead">Introduction</span>
+        </div>
+
+        <div class="aboutBody">
+          <div data-aos="fade-right" class="aboutImage">
+            <img class="img1" src="images/aboutme.jpg" alt="No image">
+          </div>
+          <div class="aboutContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, illo! Consequatur quis, impedit suscipit eveniet provident quas tempore fugiat, enim culpa alias sint laboriosam, beatae ullam delectus fuga aut mollitia!
+            Explicabo enim earum impedit ratione suscipit, eaque nihil. Ad, veniam vero accusamus aperiam incidunt impedit distinctio et aliquam vitae pariatur exercitationem obcaecati! Dolorem asperiores ducimus ipsa non tenetur aspernatur alias.
+            Earum debitis fuga consectetur architecto a, rem id aut nisi amet consequatur expedita, at alias numquam deserunt nulla omnis nihil quo facilis porro repellendus excepturi accusamus? Quae recusandae quos asperiores!</p>
+
+            <div class="information">
+              <div class="infobox">
+                <i class="fa-solid fa-user"></i>
+                <span>Sagar S</span>
+              </div>
+  
+              <div class="infobox">
+                <i class="fa-solid fa-phone"></i>
+                <span>9072081040</span>
+              </div>
+  
+              <div class="infobox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>sagarss0304@gmail.com</span>
+              </div>
+  
+            </div>
+          </div>
+        
+        </div>
+
+       </section>
+
+      <!-- skill -->
+       <section id="skill">
+        <div class="sectionHead">
+          <h2 id="mainhead">Skills</h2>
+          <span id="subhead">My Skills</span>
+        </div>
+
+        <div class="skillContent">
+          <div class="progressBar">
+          <!-- progress bar -->
+           <div class="bars">
+              <h3 class="mainhead">HTML</h3>
+              <span class="barPercentage">89%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
+           </div> 
+
+           <div class="bars">
+              <h3 class="mainhead">CSS</h3>
+              <span class="barPercentage">82%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="baseBar cssBar"></div>
+           </div> 
+
+           <div class="bars">
+              <h3 class="mainhead">JS</h3>
+              <span class="barPercentage">71%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>
+           </div> 
+
+           <div class="bars">
+              <h3 class="mainhead">React</h3>
+              <span class="barPercentage">99%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>
+           </div> 
+
+          </div>
+
+          <div data-aos="fade-left" class="skillImage">
+            <img class="myskill" src="images/skills.jpg" alt="No image">
+          </div>
+        </div>
+
+       </section>
+
+      <!-- contact -->
+       <section id="contact">
+        <div class="sectionHead">
+          <h2 id="mainhead">Contacts</h2>
+          <span id="subhead">My Contacts</span>
+        </div>
+        <div class="iconCollection">
+          <!-- linkedin -->
+           <div class="icon">
+            <a target="_blank" href="https://www.linkedin.com/in/sagar-s-652417201/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+           </div>
+           <!--github -->
+           <div class="icon">
+            <a href=""><i class="fa-brands fa-github brands"></i></a>
+           </div>
+           <!-- twitter -->
+            <div class="icon">
+              <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+            </div>
+            <!-- facebook -->
+             <div class="icon">
+              <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+             </div>
+             <!-- instagram -->
+              <div class="icon">
+                <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+              </div>
+              <!-- gmail -->
+               <div class="icon">
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+               </div>
+        </div>
+       </section>
+      <!-- footer-->
+       <footer>
+        <p id="copyright">
+          &copy; My portfolio Website - September 2024, All RightsReserved to &reg; Sagar S
+        </p>
+        <div class="icon upArrow">
+          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </div>
+       </footer>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
